@@ -1,0 +1,97 @@
+
+		body{
+			background-color: #f6f6f6;
+		}
+
+		.selectForm{
+			width: 100%;
+			overflow: hidden;
+			display: block;
+			
+		}
+		.cate{
+			height: 45px;
+			line-height: 45px;
+			position: relative;
+			
+			background-color: #ffffff;
+			padding-left:15px;
+			padding-right: 15px;
+			border-bottom: 1px solid #f3f3f3;
+		}
+		.item{
+			color:#333;
+		}
+		.holderMust{
+
+			color:#aaa;
+			margin-left: 45px;
+		}
+		.holderValue{
+			color:#555;
+			margin-left: 45px;
+
+		}
+		.must{
+			margin-bottom: 10px;
+			border-bottom: none;
+		}
+		.goArrow{
+			position: absolute;
+			height:100%;
+			width:30px;
+			right: -10px;
+			top:0;
+		}
+		.close{
+			
+			display: inline-block;
+			height: 0;
+			width: 0;
+		    border: 5px solid #000;
+		    border-color: transparent  transparent  transparent #d9d9d9; 
+		}
+		.submitBtn,.updateBtn{
+			display: block;
+			width:290px;
+			height:45px;
+			line-height: 45px;
+			background-color: #ff552e;
+			color:#fff;
+			text-align: center;
+			margin:30px auto;
+		}
+		.fgrey{
+			color:#aaa;
+		}
+		.moreLi{
+			margin:  0 auto;
+			text-align: center;
+			height:45px;
+			line-height: 45px;
+			background-color: #fafafa;
+
+		}
+		.moreTxt{
+			font-size: 12px;
+			color:#aaa;
+			margin-right: 5px;
+		}
+		.moreList{
+			display: none;
+		}
+		.open{
+			display: inline-block;
+			height: 0;
+			width: 0;
+		    border: 5px solid #000;
+		    border-color: transparent  transparent #ff552e transparent;
+		}
+/* 		.pageHide{
+	width: 100%;
+	height:100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: rgba(0,0,0,0.3);
+} */
